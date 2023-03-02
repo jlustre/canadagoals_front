@@ -4,13 +4,7 @@ import Footer from '../layout/footer';
 import { Link } from 'react-router-dom';
 import { Nav, Tab } from 'react-bootstrap';
 import HomeSlider1 from '../element/home-slider1';
-import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
-import VideoPopup1 from '../element/video-popup1';
-import PortfolioFilter1 from '../element/portfolio-filter1';
-const teambg1 = require('./../../assets/images/background/image-3.jpg');
-const newsbg1 = require('./../../assets/images/background/image-4.jpg');
-const wellcomebg1 = require('./../../assets/images/resource/image-1.jpg');
+const wellcomebg1 = require('./../../assets/images/resource/consultant.jpg');
 
 const Index = () => {
   return (
@@ -68,7 +62,7 @@ const Index = () => {
 
       <HomeSlider1 />
 
-      {/* <!-- Welcome Setion --> */}
+      {/* <!-- Welcome Section --> */}
       <section class='welcome-section pt-0'>
         <div class='auto-container'>
           <div class='wrapper-box'>
@@ -81,16 +75,17 @@ const Index = () => {
               >
                 <div class='inner-box'>
                   <div class='icon-box'>
-                    <span class='flaticon-analysis'></span>
+                    <span class='flaticon-resume'></span>
                   </div>
-                  <h2>Business Analysis</h2>
+                  <h2>We Assist You With Your Application</h2>
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore.{' '}
+                    We offer expert assistance in the application process,
+                    guiding you every step of the way to ensure that your
+                    application is complete and accurate.{' '}
                   </div>
-                  <div class='read-more'>
+                  {/* <div class='read-more'>
                     <Link to={'/#'}>Read More</Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* <!-- Welcome Block One --> */}
@@ -106,13 +101,19 @@ const Index = () => {
                   <div class='icon-box'>
                     <span class='flaticon-tax'></span>
                   </div>
-                  <h2>Save Your Tax</h2>
+                  <h2>
+                    We Help You Strategize To Maximize Your Financial Aids
+                  </h2>
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore.{' '}
+                    Our experienced team will work with you to explore all
+                    available avenues, including grants, loans, and
+                    scholarships, to ensure that you receive the maximum
+                    financial aid possible that you're entitled to.{' '}
                   </div>
-                  <div class='read-more'>
-                    <Link to={'/#'}>Read More</Link>
+                  <div class='top-center'>
+                    <Link to={'/#'} class='theme-btn btn-style-two'>
+                      <span class='btn-title'>Apply Now</span>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -124,16 +125,17 @@ const Index = () => {
               >
                 <div class='inner-box'>
                   <div class='icon-box'>
-                    <span class='flaticon-work-1'></span>
+                    <span class='flaticon-target-1'></span>
                   </div>
-                  <h2>Business Analysis</h2>
+                  <h2>We Guide You In Your Course Selection</h2>
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore.{' '}
+                    Our team will collaborate with you to identify the most
+                    suitable courses and programs that align with your academic
+                    and career objectives and help you pick the right school.{' '}
                   </div>
-                  <div class='read-more'>
+                  {/* <div class='read-more'>
                     <Link to={'/#'}>Read More</Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -158,7 +160,6 @@ const Index = () => {
                   data-wow-delay='200ms'
                   data-wow-duration='1200ms'
                 >
-                  <div class='caption'>F.</div>
                   <div class='image-outer'>
                     <img
                       src={require('../../assets/images/resource/image-3.jpg')}
@@ -171,18 +172,22 @@ const Index = () => {
             <div class='col-lg-6'>
               <div class='content-box'>
                 <div class='sec-title'>
-                  <div class='sub-title'>About Us</div>
-                  <h2>
-                    We Work With <br />
-                    You To Address
-                  </h2>
+                  <div class='sub-title'>Who We Are</div>
+                  <div class='mx-1'>
+                    <h2 className='text-center text-md-start'>
+                      Empowering Students to Achieve Their Dreams
+                    </h2>
+                  </div>
+
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Our story began with a passion for helping students realize
+                    their potential and make their career goals a reality. We
+                    understand that the path to success can be challenging, but
+                    we are here to provide the guidance and support you need to
+                    overcome any obstacles. Our mission is to empower you with
+                    the knowledge and skills to succeed in your chosen field.
+                    Join us on this journey and let's build a brighter future
+                    together.
                   </div>
                 </div>
                 <div class='row'>
@@ -195,7 +200,7 @@ const Index = () => {
                         />
                       </div>
                       <h5>Phone Number</h5>
-                      <h2>+897 6765 754</h2>
+                      <h2>(778) 302-4500</h2>
                     </div>
                   </div>
                   <div class='info-column col-md-6'>
@@ -207,306 +212,23 @@ const Index = () => {
                         />
                       </div>
                       <h5>Email Address</h5>
-                      <h2>info@webmail.com</h2>
+                      <h2>info@canadagoals.com</h2>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* <!-- Services Section --> */}
-      <section class='services-section'>
-        <div class='auto-container'>
-          <div class='wrapper-box'>
-            <div class='left-column'>
-              <div class='services-content'>
-                <div class='sec-title light'>
-                  <div class='sub-title'>Our Services</div>
-                  <h2>
-                    What Actually We <br />
-                    Do Here.
-                  </h2>
-                </div>
-                <div
-                  class='icon-box wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <div class='icon'>
-                    <img
-                      src={require('../../assets/images/icons/icon-3.png')}
-                      alt=''
-                    />
-                  </div>
-                  <h2>Capital Market</h2>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{' '}
-                  </div>
-                </div>
-                <div
-                  class='icon-box wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <div class='icon'>
-                    <img
-                      src={require('../../assets/images/icons/icon-4.png')}
-                      alt=''
-                    />
-                  </div>
-                  <h2>Insurance & Planning</h2>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{' '}
-                  </div>
-                </div>
-                <div
-                  class='icon-box wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <div class='icon'>
-                    <img
-                      src={require('../../assets/images/icons/icon-5.png')}
-                      alt=''
-                    />
-                  </div>
-                  <h2>Financial Strategy</h2>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{' '}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class='right-column'>
-              {/* <!-- Fact Counter --> */}
-              <div class='fact-counter'>
-                <div class='border-box'>
-                  <div class='border_top'></div>
-                  <div class='border_bottom'></div>
-                  <div class='border_middile'></div>
-                </div>
-                <div class='row'>
-                  {/* <!--Column--> */}
-                  <div class='column counter-column col-md-6'>
-                    <div
-                      class='inner wow fadeInLeft'
-                      data-wow-delay='0ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <div class='content'>
-                        <div class='icon'>
-                          <img
-                            src={require('../../assets/images/icons/icon-6.png')}
-                            alt=''
-                          />
-                        </div>
-                        <div class='count-outer count-box'>
-                          <CountUp end={90} redraw={true}>
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span class='count-text' ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                          <span>%</span>
-                        </div>
-                        <div class='counter-title'>Business Monitoring</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!--Column--> */}
-                  <div class='column counter-column col-md-6'>
-                    <div
-                      class='inner wow fadeInLeft'
-                      data-wow-delay='300ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <div class='content'>
-                        <div class='icon'>
-                          <img
-                            src={require('../../assets/images/icons/icon-7.png')}
-                            alt=''
-                          />
-                        </div>
-                        <div class='count-outer count-box'>
-                          <CountUp end={71} redraw={true}>
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span class='count-text' ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                          <span>%</span>
-                        </div>
-                        <div class='counter-title'>Business Growth</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!--Column--> */}
-                  <div class='column counter-column col-md-6'>
-                    <div
-                      class='inner wow fadeInLeft'
-                      data-wow-delay='600ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <div class='content'>
-                        <div class='icon'>
-                          <img
-                            src={require('../../assets/images/icons/icon-8.png')}
-                            alt=''
-                          />
-                        </div>
-                        <div class='count-outer count-box'>
-                          <CountUp end={33} redraw={true}>
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span class='count-text' ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                          <span>%</span>
-                        </div>
-                        <div class='counter-title'>Financial Plan</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!--Column--> */}
-                  <div class='column counter-column col-md-6'>
-                    <div
-                      class='inner wow fadeInLeft'
-                      data-wow-delay='900ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <div class='content'>
-                        <div class='icon'>
-                          <img
-                            src={require('../../assets/images/icons/icon-9.png')}
-                            alt=''
-                          />
-                        </div>
-                        <div class='count-outer count-box'>
-                          <CountUp end={42} redraw={true}>
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span class='count-text' ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                          <span>%</span>
-                        </div>
-                        <div class='counter-title'>Finance Consulting</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!--Column--> */}
-                  <div class='column counter-column col-md-6'>
-                    <div
-                      class='inner wow fadeInLeft'
-                      data-wow-delay='600ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <div class='content'>
-                        <div class='icon'>
-                          <img
-                            src={require('../../assets/images/icons/icon-10.png')}
-                            alt=''
-                          />
-                        </div>
-                        <div class='count-outer count-box'>
-                          <CountUp end={69} redraw={true}>
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span class='count-text' ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                          <span>%</span>
-                        </div>
-                        <div class='counter-title'>Data Analysis</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!--Column--> */}
-                  <div class='column counter-column col-md-6'>
-                    <div
-                      class='inner wow fadeInLeft'
-                      data-wow-delay='900ms'
-                      data-wow-duration='1500ms'
-                    >
-                      <div class='content'>
-                        <div class='icon'>
-                          <img
-                            src={require('../../assets/images/icons/icon-11.png')}
-                            alt=''
-                          />
-                        </div>
-                        <div class='count-outer count-box'>
-                          <CountUp end={10} redraw={true}>
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span class='count-text' ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                          <span>%</span>
-                        </div>
-                        <div class='counter-title'>business Strategy</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class='author-box'
-                style={{
-                  backgroundImage: 'url(assets/images/background/image-1.jpg)',
-                }}
-              >
-                <div class='author-info'>
-                  <div class='author-thumb'>
-                    <img
-                      src={require('../../assets/images/resource/author-1.jpg')}
-                      alt=''
-                    />
-                  </div>
-                  <h2>Rosalina D. William</h2>
-                  <div class='designation'>Founder</div>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod..
-                  </div>
-                </div>
-                <div class='signature'>
-                  <img
-                    src={require('../../assets/images/resource/signature.png')}
-                    alt=''
-                  />
-                </div>
-              </div>
-            </div>
+          <div class='row justify-content-center'>
+            <Link to={'/#'} class='theme-btn btn-style-one'>
+              <span class='btn-title'>Apply Now</span>
+            </Link>
           </div>
         </div>
       </section>
-
-      {/* <!-- Gallery Section --> */}
-      <PortfolioFilter1 />
 
       {/* <!-- Video Section --> */}
-      <VideoPopup1 />
+      {/* <VideoPopup1 /> */}
 
       {/* <!-- Why Choose Us Section --> */}
       <section class='why-chooseus-section'>
@@ -516,9 +238,8 @@ const Index = () => {
               <div class='content-box'>
                 <div class='sec-title'>
                   <div class='sub-title'>Why Choose Us</div>
-                  <h2>
-                    Why Should You <br />
-                    Choose Us ?
+                  <h2 className='text-center text-md-start'>
+                    Why Should You Choose Us?
                   </h2>
                 </div>
                 <Tab.Container defaultActiveKey='first'>
@@ -533,12 +254,12 @@ const Index = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey='second'>
-                        <span>Our Vission</span>
+                        <span>Our Vision</span>
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey='third'>
-                        <span>Our Value</span>
+                        <span>Our Values</span>
                       </Nav.Link>
                     </Nav.Item>
                   </Nav>
@@ -553,18 +274,16 @@ const Index = () => {
                         </div>
                         <div class='text'>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisici ng
-                            elit, sed do eiusmod tempor incididunt ut labo re et
-                            dolore magna aliqua. Ut enim ad minim veni am, quis
-                            nostrud exercitation ullamco.
+                            Our mission is to be the premier provider of
+                            educational support services, helping students from
+                            all backgrounds achieve their academic and career
+                            goals through innovative programs, expert guidance,
+                            and personalized attention.
                           </p>
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum. Sed ut perspiciatis unde omnis iste natus
-                            error
+                            We believe that every student deserves access to
+                            quality education and the opportunity to achieve
+                            their dreams.
                           </p>
                         </div>
                       </div>
@@ -579,18 +298,14 @@ const Index = () => {
                         </div>
                         <div class='text'>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisici ng
-                            elit, sed do eiusmod tempor incididunt ut labo re et
-                            dolore magna aliqua. Ut enim ad minim veni am, quis
-                            nostrud exercitation ullamco.
+                            To become the leading provider of education and
+                            career services, empowering individuals to achieve
+                            their full potential.
                           </p>
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum. Sed ut perspiciatis unde omnis iste natus
-                            error
+                            To help individuals reach their full potential and
+                            achieve their dreams, by providing them with the
+                            tools, resources, and support they need to succeed.
                           </p>
                         </div>
                       </div>
@@ -605,18 +320,14 @@ const Index = () => {
                         </div>
                         <div class='text'>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisici ng
-                            elit, sed do eiusmod tempor incididunt ut labo re et
-                            dolore magna aliqua. Ut enim ad minim veni am, quis
-                            nostrud exercitation ullamco.
+                            We strive for excellence in everything we do, from
+                            our services to our customer support, to ensure the
+                            best possible outcome for our students.
                           </p>
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum. Sed ut perspiciatis unde omnis iste natus
-                            error
+                            We put our students first, prioritizing their needs
+                            and satisfaction to ensure a positive and rewarding
+                            experience with our services.
                           </p>
                         </div>
                       </div>
@@ -645,90 +356,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* <!-- Team Section --> */}
-      <section
-        class='team-section'
-        style={{ backgroundImage: 'url(' + teambg1 + ')' }}
-      >
-        <div class='auto-container'>
-          <div class='sec-title text-center'>
-            <div class='sub-title'>Our Team</div>
-            <h2>Leadership Team</h2>
-          </div>
-          <div class='row'>
-            {/* <!-- Team Block One --> */}
-            <div
-              class='col-lg-4 team-block-one wow fadeInUp'
-              data-wow-delay='200ms'
-              data-wow-duration='1200ms'
-            >
-              <div class='inner-box'>
-                <div class='image'>
-                  <img
-                    src={require('../../assets/images/resource/team-1.jpg')}
-                    alt=''
-                  />
-                </div>
-                <div class='content'>
-                  <div class='designation'>Founder</div>
-                  <h3>Rosalina D. William</h3>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore.
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Team Block One --> */}
-            <div
-              class='col-lg-4 team-block-one wow fadeInUp'
-              data-wow-delay='200ms'
-              data-wow-duration='1200ms'
-            >
-              <div class='inner-box'>
-                <div class='image'>
-                  <img
-                    src={require('../../assets/images/resource/team-2.jpg')}
-                    alt=''
-                  />
-                </div>
-                <div class='content'>
-                  <div class='designation'>CEO</div>
-                  <h3>Velavos H. DesuJa</h3>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore.
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Team Block One --> */}
-            <div
-              class='col-lg-4 team-block-one wow fadeInUp'
-              data-wow-delay='200ms'
-              data-wow-duration='1200ms'
-            >
-              <div class='inner-box'>
-                <div class='image'>
-                  <img
-                    src={require('../../assets/images/resource/team-1.jpg')}
-                    alt=''
-                  />
-                </div>
-                <div class='content'>
-                  <div class='designation'>Developer</div>
-                  <h3>Abdur Rahman J.</h3>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* <!-- Contact Section --> */}
       <section class='contact-section'>
         <div class='auto-container'>
@@ -736,7 +363,7 @@ const Index = () => {
             <div class='col-lg-6'>
               <div class='sec-title'>
                 <div class='sub-title'>Write Here</div>
-                <h2>Get In Touch</h2>
+                <h2 className='text-center text-md-start'>Get In Touch</h2>
               </div>
               {/* <!-- Contact Form--> */}
               <div class='contact-form'>
@@ -796,7 +423,7 @@ const Index = () => {
             <div class='col-lg-6'>
               <div class='sec-title'>
                 <div class='sub-title'>Get Us Here</div>
-                <h2>Contact Us</h2>
+                <h2 className='text-center text-md-start'>Contact Us</h2>
               </div>
               <div class='contact-info'>
                 <div class='border-box'>
@@ -878,237 +505,6 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* <!-- News Section --> */}
-      <section class='news-section'>
-        <div
-          class='sec-bg'
-          style={{ backgroundImage: 'url(' + newsbg1 + ')' }}
-        ></div>
-        <div class='auto-container'>
-          <div class='sec-title text-center light'>
-            <div class='sub-title'>News</div>
-            <h2>News From Resource</h2>
-          </div>
-          <div class='row'>
-            {/* <!-- News Block One --> */}
-            <div
-              class='news-block-one col-lg-4 wow fadeInUp'
-              data-wow-delay='200ms'
-              data-wow-duration='1200ms'
-            >
-              <div class='inner-box'>
-                <div class='image'>
-                  <Link to={'/#'}>
-                    <img
-                      src={require('../../assets/images/resource/news-1.jpg')}
-                      alt=''
-                    />
-                  </Link>
-                </div>
-                <div class='lower-content'>
-                  <div class='category'>Business</div>
-                  <ul class='post-meta'>
-                    <li>
-                      <Link to={'/#'}>
-                        <i class='far fa-calendar-alt'></i>24th March 2020
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/#'}>
-                        <i class='far fa-user'></i>By Admin
-                      </Link>
-                    </li>
-                  </ul>
-                  <h3>
-                    <Link to={'/blog-details'}>
-                      UX is best solution for your <br />
-                      business & make noise.
-                    </Link>
-                  </h3>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit,
-                    sed do eiusmod temp or incididunt ut labore et dolore
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- News Block One --> */}
-            <div
-              class='news-block-one col-lg-4 wow fadeInUp'
-              data-wow-delay='200ms'
-              data-wow-duration='1200ms'
-            >
-              <div class='inner-box'>
-                <div class='image'>
-                  <Link to={'/#'}>
-                    <img
-                      src={require('../../assets/images/resource/news-2.jpg')}
-                      alt=''
-                    />
-                  </Link>
-                </div>
-                <div class='lower-content'>
-                  <div class='category'>Business</div>
-                  <ul class='post-meta'>
-                    <li>
-                      <Link to={'/#'}>
-                        <i class='far fa-calendar-alt'></i>26th March 2020
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/#'}>
-                        <i class='far fa-user'></i>By Admin
-                      </Link>
-                    </li>
-                  </ul>
-                  <h3>
-                    <Link to={'/blog-details'}>
-                      Business consultant is involved in the planning.
-                    </Link>
-                  </h3>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit,
-                    sed do eiusmod temp or incididunt ut labore et dolore
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- News Block One --> */}
-            <div
-              class='news-block-one col-lg-4 wow fadeInUp'
-              data-wow-delay='200ms'
-              data-wow-duration='1200ms'
-            >
-              <div class='inner-box'>
-                <div class='image'>
-                  <Link to={'/#'}>
-                    <img
-                      src={require('../../assets/images/resource/news-3.jpg')}
-                      alt=''
-                    />
-                  </Link>
-                </div>
-                <div class='lower-content'>
-                  <div class='category'>Business</div>
-                  <ul class='post-meta'>
-                    <li>
-                      <Link to={'/#'}>
-                        <i class='far fa-calendar-alt'></i>28th March 2020
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/#'}>
-                        <i class='far fa-user'></i>By Admin
-                      </Link>
-                    </li>
-                  </ul>
-                  <h3>
-                    <Link to={'/blog-details'}>
-                      Business consultant is a professional who analyzes.
-                    </Link>
-                  </h3>
-                  <div class='text'>
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit,
-                    sed do eiusmod temp or incididunt ut labore et dolore
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* <!-- Award Section --> */}
-      <section class='award-section pt-0'>
-        <div class='year'>2020</div>
-        <div class='auto-container'>
-          <div class='sec-title text-center'>
-            <div class='sub-title'>Awards</div>
-            <h2>Get Awards</h2>
-          </div>
-          <div class='award-image'>
-            <div class='row align-items-center'>
-              <div class='col-lg-4'>
-                <div
-                  class='image wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <img
-                    src={require('../../assets/images/resource/award-1.png')}
-                    alt=''
-                  />
-                </div>
-                <div
-                  class='image wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <img
-                    src={require('../../assets/images/resource/award-2.png')}
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div class='col-lg-4 order-lg-2'>
-                <div
-                  class='image wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <img
-                    src={require('../../assets/images/resource/award-3.png')}
-                    alt=''
-                  />
-                </div>
-                <div
-                  class='image wow fadeInUp'
-                  data-wow-delay='200ms'
-                  data-wow-duration='1200ms'
-                >
-                  <img
-                    src={require('../../assets/images/resource/award-4.png')}
-                    alt=''
-                  />
-                </div>
-              </div>
-              <div
-                class='col-lg-4 wow zoomIn'
-                data-wow-delay='200ms'
-                data-wow-duration='1200ms'
-              >
-                <div class='image'>
-                  <img
-                    src={require('../../assets/images/resource/award-5.png')}
-                    alt=''
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class='feature-image'>
-            <div class='image-one'>
-              <img
-                src={require('../../assets/images/resource/image-7.jpg')}
-                alt=''
-              />
-            </div>
-            <div class='image-two'>
-              <img
-                src={require('../../assets/images/resource/image-8.jpg')}
-                alt=''
-              />
-            </div>
-            <div class='image-three'>
-              <img
-                src={require('../../assets/images/resource/image-9.jpg')}
-                alt=''
-              />
             </div>
           </div>
         </div>

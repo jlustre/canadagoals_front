@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1708.77 666.49">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-family: SourceSansRoman-Bold, 'Source Sans Variable';
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: red;
+      }
+
+      .cls-7 {
+        fill: #f1f1f2;
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        font-family: BaskOldFace, 'Baskerville Old Face';
+        font-size: 317.56px;
+      }
+
+      .cls-9 {
+        font-size: 166.46px;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        font-family: SourceSansRoman-Regular, 'Source Sans Variable';
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-10, .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11, .cls-4 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-8" transform="translate(749.36 390.59)"><tspan x="0" y="0">Canada</tspan></text>
+      <text class="cls-9" transform="translate(764.28 542.45)"><tspan class="cls-12" x="0" y="0">Ca</tspan><tspan class="cls-10" x="178.95" y="0">r</tspan><tspan class="cls-11" x="235.04" y="0">eer</tspan><tspan class="cls-4" x="457.93" y="0">G</tspan><tspan class="cls-5" x="564.13" y="0">O</tspan><tspan class="cls-3" x="676.32" y="0">A</tspan><tspan class="cls-1" x="770.37" y="0">L</tspan><tspan class="cls-2" x="851.94" y="0">S</tspan></text>
+      <path class="cls-6" d="M540.43,549.23l170.83-145.08-35.37-17.38c-15.56-5.81-11.21-14.94-5.63-36.99l26.06-99.08-99.24,21.82c-9.69,1.53-16.15-4.9-17.62-11.03l-12.74-46.65-78.48,91.86c-11.16,14.7-33.77,14.7-26.73-19.29l33.52-186.04-44.97,24.35c-12.63,7.35-25.26,8.57-32.3-4.59L355.61,0l-62.11,121.12c-7.05,13.16-19.67,11.94-32.3,4.59l-44.97-24.35,33.52,186.04c7.05,33.99-15.56,33.99-26.73,19.29l-78.48-91.86-12.74,46.65c-1.47,6.13-7.93,12.56-17.62,11.03L14.94,250.71l26.06,99.08c5.58,22.04,9.93,31.17-5.63,36.99L0,404.16l170.83,145.08c6.76,5.49,10.18,15.36,7.77,24.29l-14.95,51.3c58.82-7.09,111.56-13.43,170.37-20.51,5.23-.07,13.89,4.58,13.86,10.87l-2.13,51.3h19.65l-1.22-50.9c-.04-6.3,7.82-11.34,13.05-11.28,58.82,7.08,111.55,13.43,170.37,20.51l-14.95-51.3c-2.41-8.94,1.01-18.81,7.77-24.29Z"/>
+      <g>
+        <polygon class="cls-7" points="631.94 404.57 355.63 502.45 79.32 404.57 355.63 306.68 631.94 404.57"/>
+        <path class="cls-7" d="M355.3,579.89c-11.52-9.06-29.18-20.52-52.56-27.47-6.6-1.96-32.37-9.13-65.6-4.47-8.46,1.18-15.45,2.86-20.41,4.23v-82.2l138.58,50.35v59.57Z"/>
+        <path class="cls-7" d="M355.3,579.89c11.52-9.06,29.18-20.52,52.56-27.47,6.6-1.96,32.37-9.13,65.6-4.47,8.46,1.18,15.45,2.86,20.41,4.23,0-27.4,0-54.8,0-82.2l-138.58,50.35c0,19.86,0,39.71,0,59.57Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

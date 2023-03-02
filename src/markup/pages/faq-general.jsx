@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../layout/header';
-import FaqAccordion from '../element/faq-accordion-local';
+import FaqAccordionGeneral from '../element/faq-accordion-general';
 import Footer from '../layout/footer';
 
 const aboutbg = require('./../../assets/images/background/image-11.jpg');
 
-class Faq extends Component {
+class FaqGeneral extends Component {
   render() {
     return (
       <>
@@ -73,22 +73,22 @@ class Faq extends Component {
           <div class='bottom-rotten-curve alternate'></div>
 
           <div class='auto-container'>
-            <h1>Faq's</h1>
+            <h1>FREQUENTLY ASKED QUESTIONS (General)</h1>
             <ul class='bread-crumb clearfix'>
               <li>
                 <Link to={'/#'}>Home</Link>
               </li>
-              <li class='active'>Faq's</li>
+              <li class='active'>FAQ's</li>
             </ul>
           </div>
         </section>
         {/* <!--End Banner Section --> */}
 
-        <FaqAccordion />
+        <FaqAccordionGeneral />
 
         <Footer />
       </>
     );
   }
 }
-export default Faq;
+export default FaqGeneral;
